@@ -1,0 +1,17 @@
+{
+  "name": "e-permit",
+  "version": "1.0.0",
+  "description": "E-Work Permit Processing Tool",
+  "main": "main.js",
+  "title": "E-Permit Processing Tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Ephraim Malinga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "electron": "^22.0.0"
+  }
+}

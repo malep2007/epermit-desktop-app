@@ -1,0 +1,74 @@
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.table-scroll {
+  position: relative;
+  overflow: hidden;
+}
+.table-wrap {
+  width: 100%;
+  overflow: auto;
+}
+.table-scroll table {
+  width: 100%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-scroll th,
+.table-scroll td {
+  padding: 5px 10px;
+  background: #fff;
+  white-space: nowrap;
+  vertical-align: top;
+}
+.clone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.clone th,
+.clone td {
+  visibility: hidden;
+}
+.clone td,
+.clone th {
+  border-color: transparent;
+  border-bottom: 1px solid rgba(110, 117, 130, 0.2);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(110, 117, 130, 0.2);
+  border-right: 1px solid rgba(110, 117, 130, 0.2);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgba(110, 117, 130, 0.2);
+}
+.clone tbody th {
+  visibility: visible;
+  color: red;
+}
+.clone .fixed-side-th {
+  visibility: visible;
+  background: #f5f7f7;
+}
+.clone .fixed-side-td {
+  visibility: visible;
+  background: #fff;
+}
+.clone thead,
+.clone tfoot {
+  background: transparent;
+}
+
+.expired-project {
+  color: red;
+}
+
+.table-wrapper {
+  max-height: 200px;
+  overflow: auto;
+  display:inline-block;
+}
